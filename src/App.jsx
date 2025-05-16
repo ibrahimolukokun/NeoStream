@@ -86,21 +86,26 @@ const App = () => {
 
       <div className="wrapper">
 
-        <div className='flex justify-between items-center mb-8'>
-          <div className='w-40'>
-          <img src="./logo.png" alt="Logo" />
-          </div>
+      <div className="flex justify-between items-center mb-8">
+  {/* Logo */}
+  <div className="w-32 sm:w-24">
+    <img src="./logo.png" alt="Logo" className="w-full h-auto" />
+  </div>
 
-          <div className="flex items-center space-x-4">
-          <button className="text-white border-1 border-purple-500 hover:bg-purple-600 rounded-lg px-4 py-2">
-            <a href="#" rel="noopener noreferrer"> Sign In</a>
-          </button>
-          <button className="text-white bg-purple-800 hover:bg-purple-600 rounded-lg px-4 py-2">
-            <a href="#" rel="noopener noreferrer"> Sign Up</a>
-          </button>
-          </div>
+  {/* Sign Up (visible on all screens) */}
+  <div className="flex items-center space-x-4">
+    {/* Sign In - hidden on small screens */}
+    <button className="hidden md:inline-block text-white border border-purple-500 hover:bg-purple-600 rounded-lg px-4 py-2">
+      <a href="#" rel="noopener noreferrer">Sign In</a>
+    </button>
 
-        </div>
+    {/* Sign Up - always visible */}
+    <button className="text-white bg-purple-800 hover:bg-purple-600 rounded-lg px-4 py-2">
+      <a href="#" rel="noopener noreferrer">Sign Up</a>
+    </button>
+  </div>
+</div>
+
 
         <header>
           <img src="./hero.png" alt="Hero Banner" />
