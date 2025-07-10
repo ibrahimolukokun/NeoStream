@@ -16,10 +16,7 @@ A sleek, responsive landing page that allows users to search for movies and view
 
 🛠 Tech Stack
 
-HTML5,
-CSS3,
-JavaScript (ES6),
-OMDB API
+React.js, TailwindCSS, HTML5, CSS3, JavaScript (ES6), OMDB API
 
 
 📦 Installation
