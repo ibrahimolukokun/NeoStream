@@ -22,7 +22,7 @@ OMDB API
 📦 Installation
 
 # Clone the repository
-git clone [https://github.com/ibrahimolukokun/](https://github.com/ibrahimolukokun/NeoStream)
+git clone (https://github.com/ibrahimolukokun/NeoStream)
 
 📄 License
 
