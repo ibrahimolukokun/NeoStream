@@ -7,17 +7,20 @@ A sleek, responsive landing page that allows users to search for movies and view
 
 🚀 Features
 
-• Search for any movie by name
-• Fetch real-time data from OMDB API
-• Dynamic content rendering with clean UI
-• Fully responsive layout for mobile and desktop
+- Search for any movie by name  
+- Fetch real-time data from OMDB API  
+- Dynamic content rendering with clean UI
+- Fully responsive layout for mobile and desktop
+
+
 
 🛠 Tech Stack
 
 HTML5,
 CSS3,
 JavaScript (ES6),
-OMDB API,
+OMDB API
+
 
 📦 Installation
 
